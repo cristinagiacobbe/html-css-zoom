@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+  --footer-bg:#222222;
+  --button-bg:#4a4a4a;
+  --share-scr-col:#4bc800;
+}
+main{
+  height: calc(100vh - 50px);
+  background-color: black;
+}
+footer{
+  height: 50px;
+  width: 100vw;
+  background-color: var(--footer-bg);
+}
+.d-flex{
+    display: flex;
+    
+}
+.
+  
+
+/*   <img class="strech-img" src="https://picsum.photos/id/237/200/300" alt=""> 
+ */
+ /* <i class="fa-solid fa-grip-vertical"></i>
+ <i class="fa-solid fa-maximize"></i> */
