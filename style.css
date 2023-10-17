@@ -8,18 +8,26 @@
   --button-bg:#4a4a4a;
   --share-scr-col:#4bc800;
 }
+/* #region basic elements */
 main{
   height: calc(100vh - 50px);
   background-color: rgb(4, 4, 4);
+  overflow-y: auto;
 }
 footer{
   height: 50px;
   width: 100vw;
   background-color: var(--footer-bg);
 }
+/* #endregion basi elements */
+
+/* #region utility */
 .d-flex{
   display: flex;    
 }
+/* #endregion utility */
+
+/* #region nav elements */
 .top-bar{
   justify-content: end;
   gap: 10px;
@@ -34,6 +42,28 @@ footer{
 .speaker-view{
   gap: 10px;
 }
+/* #endregion nav elements */
+.debug .container{
+ /*  height: 500px; */
+  border: 1px solid white;
+}
+.container{
+  width: 80%;
+  margin: auto;  
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.card{
+  width: 250px;
+  aspect-ratio: 16/9;
+  border: 1px solid white;
+  margin: auto;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
 
 
-/*   <img class="strech-img" src="https://picsum.photos/id/237/200/300" alt=""> 
+ 
