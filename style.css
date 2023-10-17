@@ -27,6 +27,21 @@ footer{
 }
 /* #endregion utility */
 
+/* #region debug */
+.debug .container{
+  border: 1px solid white;
+}
+.debug .footer-bar{
+  height: 50px;
+  
+}
+.debug .icons{
+  width:50px;
+  height: 100%;
+  border: 1px solid white;
+}
+/* #endregion debug */
+
 /* #region nav elements */
 .top-bar{
   justify-content: end;
@@ -43,10 +58,7 @@ footer{
   gap: 10px;
 }
 /* #endregion nav elements */
-.debug .container{
 
-  border: 1px solid white;
-}
 
 /* #region main */
 .container{
@@ -61,24 +73,28 @@ footer{
   aspect-ratio: 16/9;
   border: 1px solid white;
   margin: auto;
+  position: relative;
 }
 img{
   width: 100%;
   height: 100%;
 }
-/* #endregion main */
-.debug .footer-bar{
-  height: 50px;
-  
+.partecipant{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  gap: 5px;
 }
+.partecipant, .microphone{
+  color: brown;
+}
+/* #endregion main */
+
+
+/* #region footer */
 .footer-bar{
   justify-content: space-between;
   padding: 10px;
-}
-.debug .icons{
-  width:50px;
-  height: 100%;
-  border: 1px solid white;
 }
 i{
   color: white;    
@@ -93,9 +109,8 @@ i{
   font-size: smaller;
   padding: 5px;
 }
+/* #endregion footer */
 
 
 
 
-
-/* <i class="fa-solid fa-microphone"></i> */
