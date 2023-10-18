@@ -96,13 +96,20 @@ img{
   justify-content: space-between;
   padding: 10px;
 }
+.al-gap{
+  align-items: center;
+  gap: 20px;
+}
 i{
   color: white;    
+  transform: scale(1.5);
 }
-.central {
-  gap: 25px;
+.share{
+  color: green;
 }
-
+.chevron{
+  transform: scale(-0.7);
+}
 #end{
   color: red;
   background-color: var(--button-bg);
@@ -110,7 +117,5 @@ i{
   padding: 5px;
 }
 /* #endregion footer */
-
-
 
 
