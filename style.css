@@ -100,9 +100,16 @@ img{
   align-items: center;
   gap: 20px;
 }
-i{
-  color: white;    
-  transform: scale(1.5);
+.micph, .video, .invite, .manage, .polling, .screen, .chat, .record, .room, .more{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.left, .central{
+  color: white;      
+}
+h4{
+  font-size: small;
 }
 .share{
   color: green;
